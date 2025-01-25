@@ -1,0 +1,53 @@
+# IntelliJ IDEA spezifische Dateien und Verzeichnisse
+
+# Benutzerbezogene Dateien
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Generierte Dateien
+.idea/**/contentModel.xml
+
+# Empfindliche oder häufig wechselnde Dateien
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle spezifische Dateien
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# CMake
+cmake-build-*/
+
+# Plugin-spezifische Dateien
+.idea/**/mongoSettings.xml
+.idea_modules/
+atlassian-ide-plugin.xml
+.idea/replstate.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+.idea/httpRequests
+.idea/caches/build_file_checksums.ser
+.idea/**/sonarlint/
+.idea/**/sonarIssues.xml
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/markdown-navigator/
+.idea/$CACHE_FILE$
+.idea/codestream.xml
+.idea/**/azureSettings.xml
+
+# IntelliJ
+out/
+
+# File-basierte Projektformate
+*.iws

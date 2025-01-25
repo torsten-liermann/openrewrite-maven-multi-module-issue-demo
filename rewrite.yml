@@ -1,0 +1,12 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: demo-009
+preconditions:
+  - org.openrewrite.maven.search.FindPlugin:
+      groupId: org.codehaus.mojo
+      artifactId: jaxb2-maven-plugin
+recipeList:
+  - org.openrewrite.maven.AddDependency:
+      groupId: org.slf4j
+      artifactId: slf4j-api
+      version: 2.0.*
