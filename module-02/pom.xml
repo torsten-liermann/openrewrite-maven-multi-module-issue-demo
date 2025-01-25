@@ -4,5 +4,15 @@
     <groupId>org.example</groupId>
     <artifactId>module-02</artifactId>
     <version>1.0.0</version>
-    <!-- Modulspezifische Konfigurationen können hier hinzugefügt werden -->
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>jaxb2-maven-plugin</artifactId>
+                <version>2.5.0</version>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>

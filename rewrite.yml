@@ -7,6 +7,6 @@ preconditions:
       artifactId: jaxb2-maven-plugin
 recipeList:
   - org.openrewrite.maven.AddDependency:
-      groupId: org.slf4j
-      artifactId: slf4j-api
-      version: 2.0.*
+      groupId: jakarta.xml.bind
+      artifactId: jakarta.xml.bind-api
+      version: 4.0.*
